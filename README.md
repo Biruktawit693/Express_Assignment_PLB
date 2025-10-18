@@ -28,7 +28,7 @@ json
 POST /api/products
 Create a new product.
 
-Example Request (simulated in test_routes.js):
+## Example Request (simulated in test_routes.js):
 
 json
 ```bash
@@ -43,7 +43,7 @@ json
 PUT /api/products/:id
 Update an existing product.
 
-Example Response (simulated):
+## Example Response (simulated):
 
 json
 ```bash
@@ -58,7 +58,7 @@ json
 DELETE /api/products/:id
 Delete a product.
 
-Example Response (simulated):
+## Example Response (simulated):
 
 json
 ```bash
