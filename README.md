@@ -13,6 +13,8 @@ This project is a RESTful API built with **Express.js** for managing a `products
 
 ```bash
 npm install
+
+
 4. Start the server:
 node server.js
 5. The server runs at:
