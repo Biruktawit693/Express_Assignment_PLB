@@ -1,4 +1,4 @@
-Express.js Assignment – Product API
+# Express.js Assignment – Product API
 Overview
 
 This project is a RESTful API built with Express.js for managing a products resource. It implements CRUD operations, middleware, and error handling.
