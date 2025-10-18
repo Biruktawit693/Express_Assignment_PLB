@@ -20,6 +20,7 @@ List all products.
 Example Response:
 
 json
+```bash
 [
   { "id": "1", "name": "Laptop", "description": "...", "price": 1200, "category": "electronics", "inStock": true },
   { "id": "2", "name": "Smartphone", "description": "...", "price": 800, "category": "electronics", "inStock": true }
@@ -30,6 +31,7 @@ Create a new product.
 Example Request (simulated in test_routes.js):
 
 json
+```bash
 {
   "id": "4",
   "name": "Tablet",
@@ -44,6 +46,7 @@ Update an existing product.
 Example Response (simulated):
 
 json
+```bash
 {
   "id": "4",
   "name": "Tablet",
@@ -58,6 +61,7 @@ Delete a product.
 Example Response (simulated):
 
 json
+```bash
 {
   "id": "4",
   "name": "Tablet",
