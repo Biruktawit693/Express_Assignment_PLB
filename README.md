@@ -15,13 +15,12 @@ This project is a RESTful API built with **Express.js** for managing a `products
 npm install
 Start the server:
 
-bash
-Copy code
+```bash
 node server.js
 The server runs at:
 
 arduino
-Copy code
+```
 http://localhost:3000
 API Endpoints
 GET /api/products
@@ -30,7 +29,7 @@ Fetch all products.
 Example Response:
 
 json
-Copy code
+```
 [
   {
     "id": "1",
@@ -55,7 +54,7 @@ Fetch a single product by ID.
 Example Response:
 
 json
-Copy code
+```
 {
   "id": "1",
   "name": "Laptop",
@@ -70,7 +69,7 @@ Create a new product.
 Example Request:
 
 json
-Copy code
+```
 {
   "name": "Tablet",
   "description": "High-resolution tablet with stylus",
@@ -81,7 +80,7 @@ Copy code
 Example Response:
 
 json
-Copy code
+```
 {
   "id": "4",
   "name": "Tablet",
@@ -96,7 +95,7 @@ Update an existing product.
 Example Response:
 
 json
-Copy code
+```
 {
   "id": "4",
   "name": "Tablet",
@@ -111,7 +110,7 @@ Delete a product.
 Example Response:
 
 json
-Copy code
+```
 {
   "id": "4",
   "name": "Tablet",
@@ -133,7 +132,7 @@ Environment Variables
 Example .env.example:
 
 env
-Copy code
+```
 PORT=3000
 API_KEY=12345SECRETKEY
 Testing
